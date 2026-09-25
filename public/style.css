@@ -1,0 +1,18 @@
+body { font-family: Arial, sans-serif; background: #e5ddd5; margin: 0; padding: 0; font-size: 16px; }
+.wrap { max-width: 480px; margin: 0 auto; padding: 10px; }
+h1 { font-size: 20px; color: #075e54; margin: 10px 0; }
+h2 { font-size: 16px; margin: 10px 0; }
+input, button { font-size: 16px; padding: 8px; width: 100%; margin: 4px 0; box-sizing: border-box; }
+button { background: #25d366; color: #fff; border: none; }
+a { color: #075e54; }
+.err { color: #c00; }
+.muted { color: #888; }
+.topbar { background: #075e54; color: #fff; padding: 8px; margin: -10px -10px 10px -10px; }
+.topbar a { color: #fff; text-decoration: none; }
+.topbar .logout { float: right; }
+.chatlist { list-style: none; padding: 0; }
+.chatlist li { border-bottom: 1px solid #ccc; padding: 8px 0; }
+.msgs { border: 1px solid #ccc; background: #fff; padding: 8px; margin-bottom: 8px; overflow: auto; }
+.msg { padding: 6px 10px; margin: 4px 0; border-radius: 6px; max-width: 80%; clear: both; }
+.mine { background: #dcf8c6; float: right; text-align: right; }
+.theirs { background: #f1f0f0; float: left; }
